@@ -8,5 +8,6 @@ git config user.email fdsdev@gmail.com
 # interative adding 
 git add -i
 
-
+# commiting and adding using one command
+git commit -a -m "message"
 
