@@ -1,0 +1,10 @@
+# controlled files 
+git ls-files
+
+# identifying (-global)
+git config user.name flavio
+git config user.email fdsdev@gmail.com
+
+
+
+
