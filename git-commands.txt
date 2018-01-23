@@ -34,3 +34,5 @@ git rebase master dev2
 
 # deleting branches
 git branch -d dev
+
+# rebase do merge commit by commit - using repase --continue
