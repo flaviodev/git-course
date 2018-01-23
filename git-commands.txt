@@ -28,3 +28,6 @@ git checkout master
 
 # merge branch
 git merge design
+
+# reabse -> update branch with master changes
+git rebase master dev2
