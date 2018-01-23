@@ -15,3 +15,7 @@ git commit -a -m "message"
 git whatchanged 
 
 git whatchanged -p (detail)
+
+# working branches
+git branch design
+git checkout design
