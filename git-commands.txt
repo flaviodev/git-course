@@ -13,3 +13,5 @@ git commit -a -m "message"
 
 # to see witch files were changed in each commit
 git whatchanged 
+
+git whatchanged -p (detail)
