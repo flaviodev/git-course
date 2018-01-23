@@ -36,3 +36,39 @@ git rebase master dev2
 git branch -d dev
 
 # rebase do merge commit by commit - using repase --continue
+
+# undo change before add ... use checkout
+git checkout index.html
+
+# undo change after add ... use reset HEAD
+git reset HEAD index.html
+
+# undo change after commit ... use reset commit ID hash
+
+git reset d58cd395536bd9707ca1c1d01872968040144a10
+
+# undo chang after many commits .. use revert commit ID hash 
+#      -> create commit undoing that commit
+
+git revert d58cd395536bd9707ca1c1d01872968040144a10
+
+# using stash (temporary  space) -> saving working tree
+
+git stash
+
+# restore stash
+
+git stash pop
+
+git stash apply name
+
+# clear stash
+git stash drop
+
+# git bisect for search commits that I want fix a previus problem, indicating
+#       BAD or GOOD
+
+# git bisect start
+# git bisect bad 
+# git bisect good
+
