@@ -22,3 +22,9 @@ git checkout design
 
 # verifying updates on remote repository
 git fetch origin
+
+# after commits on branch switch to master
+git checkout master
+
+# merge branch
+git merge design
