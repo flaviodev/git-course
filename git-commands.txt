@@ -19,3 +19,6 @@ git whatchanged -p (detail)
 # working branches
 git branch design
 git checkout design
+
+# verifying updates on remote repository
+git fetch origin
