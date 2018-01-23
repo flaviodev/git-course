@@ -1,11 +1,11 @@
 # controlled files 
 git ls-files
 
-# identifying (-global)
+# identifying
 git config user.name flavio
 git config user.email fdsdev@gmail.com
 
-# interative adding
+# interative adding 
 git add -i
 
 
