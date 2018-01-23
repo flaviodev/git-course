@@ -5,6 +5,8 @@ git ls-files
 git config user.name flavio
 git config user.email fdsdev@gmail.com
 
+# interative adding
+git add -i
 
 
 
