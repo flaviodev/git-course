@@ -4,6 +4,7 @@
 
 [alias]
   a = add
+  A = add -A
   b = branch
   c = commit
   d = diff
@@ -15,5 +16,8 @@
   pu = pull 
   p = push
   r = remote
+  rb = rebase
   s = status
   w = whatchanged
+  om = !git checkout master && git pull 
+
