@@ -31,3 +31,6 @@ git merge design
 
 # reabse -> update branch with master changes
 git rebase master dev2
+
+# deleting branches
+git branch -d dev
