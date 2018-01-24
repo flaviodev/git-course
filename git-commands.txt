@@ -84,3 +84,7 @@ nano ~/.gitconfig
 
 # bring remote repository changes
 git fetch origin_other
+
+# cherry pick -> pass just one commit to master
+
+git cherry-pick hash
