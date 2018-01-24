@@ -75,3 +75,12 @@ git stash drop
 # aliases
 
 nano ~/.gitconfig
+
+
+# git log --pretty=oneline
+# git log -p
+# git log --graph
+
+
+# bring remote repository changes
+git fetch origin_other
